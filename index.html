@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Work with us</h1>
+        <p id="description">Find your calling with us. Here at 
+            Corp we give you endless possiblity to grow amongst 
+            co-workers, and costumers, we give you the opportunity 
+            to grow! <br> <br> Submit you application below!</p>
+    </header>
+    <div class="container">
+        
+    <form id="survey-form">
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="number" id="number-label">Phone number: <span>(optional)</span></label>
+        <input type="number" id="number" placeholder="Enter your phone number" min="1" max="9999999999">
+
+        <label for="dropdown">Who are you?</label>
+        <select id="dropdown">
+            <option value="" disabled selected hidden>Describe yourself!</option>
+            <option value="">Driven</option>
+            <option value="">Social</option>
+            <option value="">Inovative</option>
+            <option value="">Organized</option>
+        </select>
+
+        <label for="ideal-colleague">What makes a great colleague?</label>
+        <label for="helpful">They are helpful</label>
+        <input type="radio" id="helpful" name="ideal-colleague" value="helpful">
+        <label for="respectful">They are respectful</label>
+        <input type="radio" id="respectful" name="ideal-colleague" value="respectful">
+        <label for="talkative">They are talkative</label>
+        <input type="radio" id="talkative" name="ideal-colleague2" value="talkative">
+        <label for="reserved">They are reserved</label>
+        <input type="radio" id="reserved" name="ideal-colleague2" value="reserved">
+
+        <label for="employed">How is your current job-situatuion?</label>
+        <input type="checkbox" name="employed" value="employed">
+        <input type="checkbox" name="employed" value="unemployed">
+
+        <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Do you have any questions for us?"></textarea>
+
+        <button id="submit"><input type="submit" id="submit-btn">Submit</button>
+    </form>
+    </div>
+</body>
+</html>

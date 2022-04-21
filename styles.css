@@ -1,0 +1,59 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(https://symposium.org/wp-content/uploads/2021/11/Purpose-oriented-Leadership-in-the-New-World-of-Work.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    color: rgb(196, 195, 195);
+    margin: 2em;
+}
+
+.container{
+    margin: 2em 8em;
+    background-color: grey;
+    padding: 1em;
+    opacity: .7;
+}
+
+#title{
+    text-align: center;
+}
+#description{
+    text-align: center;
+}
+
+form{
+    display: grid;
+    margin: 4em;
+}
+
+input{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding: .7em;
+}
+
+span{
+    font-weight: 100;
+    font-size: 14px;
+}
+select{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding: .7em;
+}
+
+#submit-btn{
+    display: none;
+}
+
+button{
+    margin: 2em 8em;
+    padding: 1em;
+}
